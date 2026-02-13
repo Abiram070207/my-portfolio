@@ -1,0 +1,20 @@
+[
+    {
+        "year": "2025",
+        "title": "AI Intern",
+        "company": "Infosys Springboard",
+        "description": "Developed an AI-powered Bottrainer using NLU by implementing intent recognition and entity extraction"
+    },
+    {
+        "year": "2024-2028",
+        "title": "B.Tech in Artificial Intelligence and Data Science",
+        "company": "Rajalakshmi Institute of Technology",
+        "description": "AI & Data Science undergraduate focused on building full-stack intelligent systems and scalable machine learning applications."
+    },
+    {
+        "year": "2024",
+        "title": "Higher Secondary School",
+        "company": "Edustar International School",
+        "description": "Graduated with A grade"
+    }
+]

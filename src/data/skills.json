@@ -1,0 +1,14 @@
+[
+  {
+    "category": "Frontend",
+    "items": ["React", "TypeScript", "Tailwind CSS", "Framer Motion", "GSAP", "Three.js"]
+  },
+  {
+    "category": "Backend",
+    "items": ["Node.js", "Express", "PostgreSQL", "GraphQL", "Supabase"]
+  },
+  {
+    "category": "Tools",
+    "items": ["Git", "Docker", "Figma", "Vite", "Jest"]
+  }
+]

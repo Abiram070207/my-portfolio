@@ -1,0 +1,35 @@
+[
+    {
+        "id": 1,
+        "title": "Medical Imaging Diagnostic Tool",
+        "description": "The MID by RADAR (Rajalakshmi Institute of Technology) is a tool used to diagnose pneumonia using AI.",
+        "tech": [
+            "Python",
+            "TensorFlow",
+            "React"
+        ],
+        "image": "/images/radar_logo.png"
+    },
+    {
+        "id": 2,
+        "title": "Campus Pulse",
+        "description": "A smart all-in-one platform for universities to manage student health and academic factors.",
+        "tech": [
+            "React",
+            "Node.js",
+            "MongoDB"
+        ],
+        "image": "/images/campuspulse.png"
+    },
+    {
+        "id": 3,
+        "title": "Kerala Voyager",
+        "description": "A smart all-in-one travel application developed as part of SIH (Kerala).",
+        "tech": [
+            "React Native",
+            "Firebase",
+            "Google Maps"
+        ],
+        "image": "/images/keralavoyager.jpg"
+    }
+]

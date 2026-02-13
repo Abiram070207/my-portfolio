@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", sans-serif;
+
+  --color-background: var(--color-background);
+  --color-text: var(--color-text);
+  --color-text-muted: var(--color-text-muted);
+  --color-primary: var(--color-primary);
+  --color-secondary: var(--color-secondary);
+}
+
+:root {
+  --color-background: #FFFFFF;
+  --color-text: #111111;
+  --color-text-muted: #555555;
+  --color-primary: #111111;
+  /* Minimalist primary is usually black or very dark gray */
+  --color-secondary: #E5E7EB;
+  /* Subtle borders */
+  --color-accent: #3B82F6;
+  /* Subtle Blue */
+}
+
+/* Removed Dark Mode overrides to enforce Light Theme */
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-text);
+    overflow-x: hidden;
+    @apply antialiased transition-colors duration-300;
+  }
+}
+
+@layer utilities {
+  .glass {
+    @apply bg-white/10 backdrop-blur-lg border border-white/20 shadow-xl;
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-600;
+  }
+
+  .text-balance {
+    text-wrap: balance;
+  }
+}
