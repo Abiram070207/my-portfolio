@@ -11,6 +11,17 @@
         "image": "/images/radar_logo.png"
     },
     {
+        "id": 3,
+        "title": "NLU Bot Trainer",
+        "description": "Developed using spaCy, stanza and hugging face transformer models.",
+        "tech": [
+            "spaCy",
+            "Stanza",
+            "Transformers"
+        ],
+        "image": "/images/keralavoyager.jpg"
+    },
+    {
         "id": 2,
         "title": "Campus Pulse",
         "description": "A smart all-in-one platform for universities to manage student health and academic factors.",
@@ -20,16 +31,5 @@
             "MongoDB"
         ],
         "image": "/images/campuspulse.png"
-    },
-    {
-        "id": 3,
-        "title": "Kerala Voyager",
-        "description": "A smart all-in-one travel application developed as part of SIH (Kerala).",
-        "tech": [
-            "React Native",
-            "Firebase",
-            "Google Maps"
-        ],
-        "image": "/images/keralavoyager.jpg"
     }
 ]
